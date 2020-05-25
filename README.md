@@ -36,3 +36,21 @@ Levenshtein distance = 2  (Replace S by T and T by S)
 ### Functionality Enabling
 1. https://bevacqua.github.io/dragula/ - drag & drop (throwin out of container!!!)
 1. https://bevacqua.github.io/insignia/ - customizable tags input creation - managing choosed mods visualy ( removable with x as i wanted earlier)
+
+### can use
+https://www.heroicons.com
+https://tailwindcss.com
+https://www.reddit.com/r/pathofexile/comments/7dpd8y/qol_fuzzy_search_for_name_and_mods_on_poeappcom/ - fuzzy searching
+
+### some planed features
+same as in main repository
+- support for 1 recently used Character or Selected Character, N stash tabs from Standard
+- Better stash tabs caching, and updating, with ability to manualy delate items
+- Searching through all Uniques and their mods, as separate page to league view (probably fuzzy search)
+- Support for gem xp, and incubator as bar 
+- Support for upcoming leagues
+- Nice ui
+- item links to pathofexile.com/trade/ with preselected mods
+  - with mods of user choice
+ 
+
