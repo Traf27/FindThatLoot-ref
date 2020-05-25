@@ -1,7 +1,11 @@
 # FindThatLoot-ref
 Library of resources, ideas for my endavours, creating FindThatLoot to have all in one place remotely available.
 
-### Fuzzy matching and relevance
+### Fuzzy matching
+```
+Fuzzy matching has one big side effect; it messes up with relevance. Although Damerau-Levenshtein is an algorithm that considers most of the common user’s misspellings, it also can include a significantly the number of false positives, especially when we are using a language with an average of just 5 letters per word, such as English. That is why most of the search engine frameworks prefer to stick with Levenshtein distance. 
+```
+- [Example](https://blog.couchbase.com/fuzzy-matching/)
 
 #### Levnshtein distance 
 1. https://rosettacode.org/wiki/Levenshtein_distance 
@@ -23,5 +27,12 @@ Levenshtein distance = 2  (Replace S by T and T by S)
 ```
 #### Libs
 1. https://fusejs.io/ - seems realy easy, no dependencies
+1. https://bevacqua.github.io/horsey/ - horsey (oglądałem wcześniej) dużo możliwości jak
+  - lazy ajax loading (remote files)
+  - limiting list results
+  - custom output rendering ```renderItem: function(li, suggestion) {...```
+  
 
-
+### Functionality Enabling
+1. https://bevacqua.github.io/dragula/ - drag & drop (throwin out of container!!!)
+1. https://bevacqua.github.io/insignia/ - customizable tags input creation - managing choosed mods visualy ( removable with x as i wanted earlier)
