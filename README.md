@@ -51,6 +51,6 @@ same as in main repository
 - Support for upcoming leagues
 - Nice ui
 - item links to pathofexile.com/trade/ with preselected mods
-  - with mods of user choice
+  - or with mods of user choice
  
 
