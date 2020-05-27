@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <title>SlickGrid example 1: Basic grid</title>
+  <link rel="stylesheet" href="../slick.grid.css" type="text/css"/>
+  <link rel="stylesheet" href="../css/smoothness/jquery-ui-1.8.16.custom.css" type="text/css"/>
+  <link rel="stylesheet" href="examples.css" type="text/css"/>
+</head>
+<body>
+<table width="100%">
+  <tr>
+    <td valign="top" width="50%">
+      <div id="myGrid" style="width:600px;height:500px;"></div>
+    </td>
+    <td valign="top">
+      <h2>Demonstrates:</h2>
+      <ul>
+        <li>basic grid with minimal configuration</li>
+      </ul>
+        <h2>View Source:</h2>
+        <ul>
+            <li><A href="https://github.com/mleibman/SlickGrid/blob/gh-pages/examples/example1-simple.html" target="_sourcewindow"> View the source for this example on Github</a></li>
+        </ul>
+    </td>
+  </tr>
+</table>
+
+<script src="../lib/jquery-1.7.min.js"></script>
+<script src="../lib/jquery.event.drag-2.2.js"></script>
+
+<script src="../slick.core.js"></script>
+<script src="../slick.grid.js"></script>
+
+<script>
+  var grid;
+  // var columns = [
+  //   {id: "title", name: "Title", field: "title"},
+  //   {id: "duration", name: "Duration", field: "duration"},
+  //   {id: "%", name: "% Complete", field: "percentComplete"},
+  //   {id: "start", name: "Start", field: "start"},
+  //   {id: "finish", name: "Finish", field: "finish"},
+  //   {id: "effort-driven", name: "Effort Driven", field: "effortDriven"}
+  // ];
+
+  var options = {
+    enableCellNavigation: true,
+    enableColumnReorder: false
+  };
+
+  $(function () {
+ 
+  let items; 
+  // let requestURL = "./items.js";
+  // let request = new XMLHttpRequest();
+  // request.open('data', requestURL);
+  // request.responseType = 'json';
+  // request.send();
+  // request.onload = function() {
+  //   items = request.response;
+  //   console.log(items);
+  // }
+    let data;
+    let success;
+//     $.getJSON("https://raw.githubusercontent.com/Traf27/Looty-ref/master/json/_character-window_get-items_response-body.json", function(items) {
+//       jQuery.parseJSON(items);//console.log(items.items); // this will show the info it in firebug console
+// console.log(items.items);
+//       data = items.items;
+//     });
+$.ajax({
+  dataType: "json",
+  url: "https://raw.githubusercontent.com/Traf27/Looty-ref/master/json/_character-window_get-items_response-body.json",
+  data: data,
+  success: success
+});
+
+    for (var i = 0; i < i; i++) {
+      data[i] = {
+        title: "item " + i,
+        duration: "5 days",
+        percentComplete: Math.round(Math.random() * 100),
+        start: "01/01/2009",
+        finish: "01/05/2009",
+        effortDriven: (i % 5 == 0)
+      };
+    }
+  var columns = [
+    {id: "title", name: "Title", field: "name"},
+    {id: "duration", name: "typeLine", field: "typeLine"},
+    {id: "%", name: "% Complete", field: "percentComplete"},
+    {id: "start", name: "Start", field: "start"},
+    {id: "finish", name: "Finish", field: "finish"},
+    {id: "effort-driven", name: "Effort Driven", field: "effortDriven"}
+  ];
+    
+ 
+
+
+    grid = new Slick.Grid("#myGrid", data, columns, options);
+    let item = {
+      "verified": false,
+      "w": 1,
+      "h": 1,
+      "ilvl": 73,
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicint.png?scale=1&w=1&h=1&v=cd579ea22c05f1c6ad2fd015d7a710bd",
+      "league": "Standard",
+      "id": "3fb26797700b44fdae7873571d3536f56daafefa10cc18ceb8d4b27159bfde21",
+      "name": "Empyrean Curio",
+      "typeLine": "Cobalt Jewel",
+      "identified": true,
+      "note": "~b/o 55 chaos",
+      "explicitMods": [
+        "12% increased Damage over Time",
+        "15% increased Cold Damage",
+        "16% increased Critical Strike Chance with Cold Skills"
+      ],
+      "descrText": "Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.",
+      "frameType": 2,
+      "x": 7,
+      "y": 0,
+      "inventoryId": "Stash13"
+    };
+
+  })
+</script>
+</body>
+</html>
