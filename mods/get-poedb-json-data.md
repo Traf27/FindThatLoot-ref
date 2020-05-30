@@ -1,7 +1,7 @@
 Excerpt from  /us/json.php?cn=Bow
 
 ```json
-
+{
   "baseitem": {
     "cn": "Bow",
     "name": 13,
@@ -288,8 +288,9 @@ Excerpt from  /us/json.php?cn=Bow
         "<span class='badge' data-tooltip='Fossil'>jewellery_attribute</span>"
       ],
       "mod_fossil_item": [],
-    },
-   },
+    }
+   ]
+   }
    "cached":1
 }
 ```
