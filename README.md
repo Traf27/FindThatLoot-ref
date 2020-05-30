@@ -1,6 +1,9 @@
 # FindThatLoot-ref
 Library of resources, ideas for my endavours, creating FindThatLoot to have all in one place remotely available.
 
+
+[Mods WIP](https://github.com/Traf27/FindThatLoot-ref/mods/README.md)
+
 ### 1. Fuzzy matching
 ```
 Fuzzy matching has one big side effect; it messes up with relevance. Although Damerau-Levenshtein 
