@@ -1,10 +1,10 @@
 ## Acquiring Mods data
 
-### PoeDBB has subpages with mod for various different items 
+### PoeDB has subpages with mods for various items 
 As author said if you replace **mod.php?** with **json.php/Mods/Gen?** you will get json object back
 
 For example:
-https://poedb.tw/us/json.php/Mods/Gen?cn=Sacrifice_of_the_Vaal
+- https://poedb.tw/us/json.php/Mods/Gen?cn=Sacrifice_of_the_Vaal
 
 Here are all item links from https://poedb.tw/us/mod.php?l=1 html code
 (sadly I have not found way to get (is it possible?) all item data json links)
