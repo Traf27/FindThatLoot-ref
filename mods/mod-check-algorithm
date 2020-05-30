@@ -1,0 +1,65 @@
+Rough idea of cuting 
+
+
+ilvl cutting of
+
+if something has 35 ilvl, we will not search for mods with ilvl geater than 35
+
+it seems like a good idea to actualy have db tables, instead of json files only.
+
+
+----
+
+get data from GGG API
+downloading...
+
+que = []
+request stashtab 0  -> 
+get info how much stashes player has
+ex 230
+que = new ?[230]
+
+prepare 229 requests and put it into que 
+
+que.push(req stashtab 1)
+que.push(req stashtab 2)
+que.push(req stashtab 3)
+que.push(req stashtab 4)
+...
+que.push(req stashtab 229)
+
+we need function to check if we have not exceeded the API req limit, so every ~40 que items completed lets check
+```
+function isLimitExceeded(limit-account-state:Int)  :Boolean {
+//x-rate-limit-account: "45:60:60,240:240:900"
+//x-rate-limit-account-state: "1:60:0,1:240:0"
+if req.status <> "404" continue//or switch cases like "no access" and "200" ok and some other that ggg is using
+
+  if (limit-account-state) >= x-rate-limit-account.splice(":").then(x=> x.head) ) false
+  else true
+}
+```
+
+peek into que and execute as Promise
+req.head(Promise)
+if resolved.true then 
+  que.pop(Promise) and
+  load_stash_data ->
+if resolved.false -> isLimitExceeded(?) if true throw error (can't get data, and data not excedded, maybe site is down -> but we will check for it before even going for req maybe)
+  
+function load_stash_data(stash:Stash): List[Container] {
+  x = new Container()
+  
+}
+  
+  Container {//i only copy idea of containers from ben
+  items_counter: 13; //cant be more then 144 in normal/premium tab , and more then 144*4 for quadtab (if event this check is needed?)
+  //thats maybe for when someone will delete item, in game? //i just write it, dont want to think about it now
+  items: List[Item]
+  Container_type: //stash, inventory+/ paperdoll
+  //idont know
+  }
+
+...<somewhere along the lines will be caching> ..
+
+
