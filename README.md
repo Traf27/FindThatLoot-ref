@@ -45,6 +45,10 @@ https://www.scitepress.org/Papers/2016/60066/60066.pdf
 - https://www.reddit.com/r/pathofexile/comments/7dpd8y/qol_fuzzy_search_for_name_and_mods_on_poeappcom/ - fuzzy searching
 - https://github.com/Traf27/node-poe-api - poe api for public stash data, but nice template for private ones
   - https://www.npmjs.com/package/request-promise
+### Game icons
+- [icon pack](https://drive.google.com/file/d/1IrIcZS0F_BplK962mzzIXsgTq2cFHZyQ/view?usp=sharing) from zensei 27.03.2018 so needs update look for script converter
+- <img src="https://web.poecdn.com/image/item/popup/elder-symbol.png?1569220365590"><img src="https://web.poecdn.com/image/item/popup/shaper-symbol.png?1569220365594"><img src="https://web.poecdn.com/image/item/popup/crusader-symbol.png"><img src="https://web.poecdn.com/image/item/popup/redeemer-symbol.png"><img src="https://web.poecdn.com/image/item/popup/hunter-symbol.png"><img src="https://web.poecdn.com/image/item/popup/warlord-symbol.png">
+
 
 ### some planed features
 same as in main repository
