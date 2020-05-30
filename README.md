@@ -25,7 +25,7 @@ Ex: TSAR to STAR
 Damerau-Levenshtein distance = 1  (Switching S and T positions cost only one operation)
 Levenshtein distance = 2  (Replace S by T and T by S)
 ```
-#### 2. Libs
+### 2. Libs
 1. https://fusejs.io/ - seems realy easy, no dependencies
 1. https://bevacqua.github.io/horsey/ - horsey (oglądałem wcześniej) dużo możliwości jak
   - lazy ajax loading (remote files)
