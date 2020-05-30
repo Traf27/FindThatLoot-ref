@@ -7,7 +7,10 @@ For example:
 - https://poedb.tw/us/json.php/Mods/Gen?cn=Sacrifice_of_the_Vaal
 
 Here are all item links from https://poedb.tw/us/mod.php?l=1 html code
-(sadly I have not found way to get (is it possible?) all item data json links)
+(sadly I have not found way to get (is it possible?) all item data json links).
+
+p.s Incubator Kills are not in these mods, we have to supply it elsweher, so there are probably other special cases.
+
 
 <pre>
 https://poedb.tw/us/json.php/Mods/Gen
