@@ -287,8 +287,8 @@ Excerpt from  /us/json.php?cn=Bow
       "mod_no": [
         "<span class='badge' data-tooltip='Fossil'>jewellery_attribute</span>"
       ],
-      "mod_fossil_item": []
-    }
+      "mod_fossil_item": [],
+    },
    },
    "cached":1
 }
