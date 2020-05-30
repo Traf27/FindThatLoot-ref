@@ -3,7 +3,11 @@ Library of resources, ideas for my endavours, creating FindThatLoot to have all 
 
 ### 1. Fuzzy matching
 ```
-Fuzzy matching has one big side effect; it messes up with relevance. Although Damerau-Levenshtein is an algorithm that considers most of the common user’s misspellings, it also can include a significantly the number of false positives, especially when we are using a language with an average of just 5 letters per word, such as English. That is why most of the search engine frameworks prefer to stick with Levenshtein distance. 
+Fuzzy matching has one big side effect; it messes up with relevance. Although Damerau-Levenshtein 
+is an algorithm that considers most of the common user’s misspellings, it also can include 
+a significantly the number of false positives, especially when we are using a language with an average
+of just 5 letters per word, such as English. That is why most of the search engine frameworks prefer to
+stick with Levenshtein distance. 
 ```
 - [Example](https://blog.couchbase.com/fuzzy-matching/)
 
