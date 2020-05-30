@@ -1,12 +1,4 @@
-Rough idea of cuting 
-
-
-ilvl cutting of
-
-if something has 35 ilvl, we will not search for mods with ilvl geater than 35
-
-it seems like a good idea to actualy have db tables, instead of json files only.
-
+Rough idea on cuting requests quantity
 
 ----
 
