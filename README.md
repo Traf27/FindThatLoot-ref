@@ -40,9 +40,11 @@ Levenshtein distance = 2  (Replace S by T and T by S)
 https://github.com/aggixx/PoBPreviewBot/commit/71201cfab4c650f18cd22e73adef6c24d58b116f - aggix bot implementation for single item check
 https://www.scitepress.org/Papers/2016/60066/60066.pdf
 ### can use
-https://www.heroicons.com
-https://tailwindcss.com
-https://www.reddit.com/r/pathofexile/comments/7dpd8y/qol_fuzzy_search_for_name_and_mods_on_poeappcom/ - fuzzy searching
+- https://www.heroicons.com
+- tps://tailwindcss.com
+- https://www.reddit.com/r/pathofexile/comments/7dpd8y/qol_fuzzy_search_for_name_and_mods_on_poeappcom/ - fuzzy searching
+- https://github.com/Traf27/node-poe-api - poe api for public stash data, but nice template for private ones
+  - https://www.npmjs.com/package/request-promise
 
 ### some planed features
 same as in main repository
