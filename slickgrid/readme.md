@@ -1,6 +1,8 @@
 ## FindThatLoot datatable essentials
 
-https://github.com/6pac/SlickGrid/wiki/Grid-Introduction
+#### How-to
+- [Introduction](https://github.com/6pac/SlickGrid/wiki/Grid-Introduction)
+- [Subscribing to **Events**, and list of them](https://github.com/6pac/SlickGrid/wiki/Grid-Events)
 
 ### Useful slickgrid opions
 - "syncColumnCellResize": true  (resizes colum while holding mouse, instead of only after release of button
