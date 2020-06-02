@@ -25,6 +25,7 @@
 - "asyncPostRenderDelay"
 - "asyncEditorLoadDelay"
 - "asyncEditorLoading":	false	Makes cell editors load asynchronously after a small delay. This greatly increases keyboard navigation speed.
+- http://6pac.github.io/SlickGrid/examples/example-multiselect-editor.html multiselect checbkox cell
 
 #### Notes about usin with React.js
 
