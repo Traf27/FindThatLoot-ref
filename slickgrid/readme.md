@@ -25,3 +25,18 @@
 - "asyncPostRenderDelay"
 - "asyncEditorLoadDelay"
 - "asyncEditorLoading":	false	Makes cell editors load asynchronously after a small delay. This greatly increases keyboard navigation speed.
+
+#### Notes about usin with React.js
+
+```
+@DemGiran i used it in my React project. Actually, i do not recommend to use SlickGrid in React.JS if you don't have to use it. You can check react-table for as a pure react component.
+SlickGrid has many issues and problems when you want to use it in React.JS
+However, if you gonna do that just simply add slickgrid as npm package in your project. And import the all necessary files (jquery, slickgrid core js files and plugins) in your main js file.
+Then create a react class and render SlickGrid then use it everywhere like;
+
+<SlickGrid
+columns={this.state.columns}
+data={this.state.data}
+gridOptions={{ forceFitColumns: true }}
+/>
+```
