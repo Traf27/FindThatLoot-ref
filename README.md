@@ -2,7 +2,7 @@
 Library of resources, ideas for my endavours, creating FindThatLoot to have all in one place remotely available.
 
 
-[Mods WIP](https://github.com/Traf27/FindThatLoot-ref/mods/README.md)
+[Mods WIP](https://github.com/Traf27/FindThatLoot-ref/blob/master/mods/README.md)
 
 ### 1. Fuzzy matching
 ```
