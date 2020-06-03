@@ -34,7 +34,7 @@ Levenshtein distance = 2  (Replace S by T and T by S)
 ```
 ### 2. Libs
 1. https://fusejs.io/ - seems realy easy, no dependencies
-1. https://bevacqua.github.io/horsey/ - horsey (oglądałem wcześniej) dużo możliwości jak
+1. https://bevacqua.github.io/horsey/ - horsey (seen before) lots of features
   - lazy ajax loading (remote files)
   - limiting list results
   - custom output rendering ```renderItem: function(li, suggestion) {...```
@@ -48,6 +48,7 @@ Levenshtein distance = 2  (Replace S by T and T by S)
   - https://github.com/aggixx/PoBPreviewBot/commit/71201cfab4c650f18cd22e73adef6c24d58b116f 
 - https://www.scitepress.org/Papers/2016/60066/60066.pdf
 ### can use
+- https://github.com/duiker101/poekit-rack **Item Popup** as on ggg site, superb, although Vue i dont know yet
 - https://www.heroicons.com
 - https://tailwindcss.com
 - https://www.reddit.com/r/pathofexile/comments/7dpd8y/qol_fuzzy_search_for_name_and_mods_on_poeappcom/ - fuzzy searching
