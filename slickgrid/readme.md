@@ -27,7 +27,7 @@
 - "asyncEditorLoading":	false	Makes cell editors load asynchronously after a small delay. This greatly increases keyboard navigation speed.
 - http://6pac.github.io/SlickGrid/examples/example-multiselect-editor.html multiselect checbkox cell
 
-#### Notes about usin with React.js
+#### Notes about using with React.js
 
 ```
 @DemGiran i used it in my React project. Actually, i do not recommend to use SlickGrid in React.JS if you don't have to use it. You can check react-table for as a pure react component.
@@ -41,3 +41,5 @@ data={this.state.data}
 gridOptions={{ forceFitColumns: true }}
 />
 ```
+#### Notes about using with Electron
+- https://www.tutorialfor.com/questions-78846.htm
